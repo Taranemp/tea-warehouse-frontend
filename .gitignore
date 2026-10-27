@@ -1,6 +1,3 @@
-.env.development
-.env.production
-
 # Logs
 logs
 *.log
@@ -10,14 +7,80 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build output
 dist
 dist-ssr
+build/Release
+out
+.output
 *.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Vercel
+.vercel
+
+# Archives
+*.tgz
+
+# Caches
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+.npm
+.turbo
+.next
+.nuxt
+.svelte-kit/
+.astro/
+.docusaurus
+.serverless/
+.fusebox/
+.firebase/
+
+# Test coverage
+coverage
+*.lcov
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Package manager stores
+.pnpm-store
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.yarn-integrity
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+.vscode-test
 .idea
 .DS_Store
 *.suo
@@ -25,7 +88,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-.vercel
-.vite/
-*.tgz
