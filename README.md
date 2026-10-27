@@ -93,7 +93,7 @@ npm run preview
 
 ## Screenshots
 
-<!-- Add screenshots here, e.g. ![Dashboard](docs/dashboard.png) -->
+![Dashboard](docs/homepage.png)
 
 ## Roadmap
 
