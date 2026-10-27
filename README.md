@@ -93,7 +93,7 @@ npm run preview
 
 ## Screenshots
 
-![Dashboard](docs/homepage.png)
+![Dashboard](docs/photo_2026-10-27_02-44-58.jpg)
 
 ## Roadmap
 
