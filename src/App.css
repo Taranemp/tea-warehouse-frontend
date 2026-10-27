@@ -1,0 +1,42 @@
+.btn-test {
+    background-color: purple;
+    color: red;
+}
+
+/* this class is for btn to show a hover highlighter */
+.hover-btn {
+    border: 1px solid rgba(128, 128, 128, 0) !important;
+    opacity: 0.7 !important;
+}
+.hover-btn:hover {
+    opacity: 1 !important;
+    border: 1px solid gray !important;
+}
+.hover-btn-active {
+    opacity: 1 !important;
+    border: 1px solid gray !important;
+}
+/* end */
+
+
+.input-group-text#username, .input-group-text#password {
+    width: 120px;
+}
+
+
+#confirm-password {
+    width: 180px;
+}
+
+.pt-60 {
+    padding-top: 70px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+
+.topbar-logo-img{
+    width: 25px;
+}
+
